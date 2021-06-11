@@ -1,0 +1,124 @@
+[{
+    "heading":"Bestsellers",
+    "headingId":"Bestsellers",
+    "list":[{
+        "subheading":"Lazez Bhuna Murgh",
+        "menu":"Chicken Briyani Boneeless - Serves 4-5",
+        "price":440,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Dum Ghost",
+        "menu":"Mutton Briyani Boneeless - Serves 4-5",
+        "price":1033,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Subz-E-Biriyani",
+        "menu":"Veg Briyani - Serves 4-5",
+        "price":910,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    }]
+},
+{
+    "heading":"Recommended",
+    "headingId":"Recommended",
+    "list":[{
+        "subheading":"Lazez Bhuna Murgh",
+        "menu":"Chicken Briyani Boneeless - Serves 4-5",
+        "price":440,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Dum Ghost",
+        "menu":"Mutton Briyani Boneeless - Serves 4-5",
+        "price":1033,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Subz-E-Biriyani",
+        "menu":"Veg Briyani - Serves 4-5",
+        "price":910,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    }]
+},
+{
+    "heading":"Value Combos",
+    "headingId":"ValueCombos",
+    "list":[{
+        "subheading":"Lazez Bhuna Murgh",
+        "menu":"Chicken Briyani Boneeless - Serves 4-5",
+        "price":440,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Dum Ghost",
+        "menu":"Mutton Briyani Boneeless - Serves 4-5",
+        "price":1033,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Subz-E-Biriyani",
+        "menu":"Veg Briyani - Serves 4-5",
+        "price":910,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    }]
+},
+{
+    "heading":"Family Pack",
+    "headingId":"FamilyPack",
+    "list":[{
+        "subheading":"Lazez Bhuna Murgh",
+        "menu":"Chicken Briyani Boneeless - Serves 4-5",
+        "price":440,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Dum Ghost",
+        "menu":"Mutton Briyani Boneeless - Serves 4-5",
+        "price":1033,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    },
+    {
+        "subheading":"Subz-E-Biriyani",
+        "menu":"Veg Briyani - Serves 4-5",
+        "price":910,
+        "less":"Read Less",
+        "more":"Read More",
+        "content":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, ",
+        "morecontent":"In this most enigmatic & treasured recipe of Behrouz, immaculately spiced fresh, succulent mutton pieces are layered with basmati & then slow-cooked on a charcoal fire."
+    }]
+}]

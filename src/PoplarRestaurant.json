@@ -1,0 +1,21 @@
+[{
+    "name":"Behrouz Biriyani",
+    "type":"Biriyani Kebab, Mughlai",
+    "rating":"4.2",
+    "promo":"30% off with FOODZY30",
+    "rate":"₹ 600 for two"
+},
+{
+    "name":"Burger King",
+    "type":"Burgers, Fries & beverages",
+    "rating":"3.5",
+    "promo":"50% off with FREE50",
+    "rate":"₹ 400 for two"
+},
+{
+    "name":"Oye Kiddan!!",
+    "type":"Paranthas",
+    "rating":"4.2",
+    "promo":"30% off with FOODZY30",
+    "rate":"₹ 600 for two"
+}]

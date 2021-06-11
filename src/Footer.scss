@@ -1,0 +1,26 @@
+.row {
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    .Logo {
+        padding: 2%;
+        padding-bottom: 0;
+        img {
+            width: 7%;
+        }
+    }
+    .col {
+        padding-bottom: 1%;
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    height: 9%;
+    border-top: 1px solid;
+    box-shadow: 0px 0px 8px black;
+}

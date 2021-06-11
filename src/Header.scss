@@ -1,0 +1,121 @@
+header {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 4%;
+    background-color: #D45858;
+    .Name{
+        font-family: Exo;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 38px;
+        letter-spacing: .5px;
+        line-height: 32px;
+        color: #FFFFFF;
+        display: contents;
+        position: absolute;
+        width: 81px;
+        height: 32px;
+        left: 20px;
+        top: 16px;
+        margin-bottom: 1px;
+    }
+    .Notification {
+        position: absolute;
+        width: 3.5%;
+        right: 78px;
+    }
+    .Profile {
+        position: absolute;
+        width: 3.5%;
+        right: 24px;
+    }
+    .Account {
+        float: right;
+    }
+    .line {
+        width: 95%;
+        height: 1px;
+        left: 20px;
+        right: 20px;
+        margin-top: 24px;
+        background: linear-gradient(to right, #FFFFFF, #D45858);
+    }
+    .Header-content {
+        margin-left: 10%;
+        background-color: #D45858;
+        .Logo {
+            img {
+                position: relative;
+                float: right;
+                top: 26%;
+                right: 8%;
+                height: 86%;
+                width: 37%
+            }
+        }
+    }
+    .Upto {
+        width: 10%;
+        height: 12%;
+        left: 23px;
+        margin-top: 95px;
+        opacity: 0.67;
+        font-family: IBM Plex Sans;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 21px;
+        color:#FFFFFF;
+    }
+    .Off {
+        width: 59%;
+        height: 12%;
+        left: 20px;
+        margin-top: 3%;
+        margin-left: -10%;
+        font-family: Exo;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 32px;
+        color:#FFFFFF;
+    }
+    .First-order {
+        width: 34%;
+        height: 7%;
+        left: 23px;
+        margin-top: 2%;
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 16px;
+        color:#FFFFFF;
+    }
+    .Order-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6px 12px;
+        width: 40%;
+        left: 20px;
+        margin-top: 4%;
+        border-radius: 8px;
+        color:#FFFFFF;
+        border: #FFFFFF 1px solid;
+    } 
+    .Order {
+        left: 12px;
+        top: 6px;
+        padding: 6%;
+        font-family: IBM Plex Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 18px;
+        margin-left: 8%;
+        text-align: center;
+        color: #D45858;
+    }
+}
