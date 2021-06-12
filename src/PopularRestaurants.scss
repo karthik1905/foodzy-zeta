@@ -2,8 +2,14 @@
     background-color: #FFFFFF;
     margin: 0;
     max-width: 100%;
-    padding-bottom: 14%;
+    padding-bottom: 14%;    
+    @media only screen and (max-device-width: 600px) {
+        padding-bottom: 34%;
+    }
     .Sub-heading {
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+            font-size: 30px;
+        }
         font-family: IBM Plex Sans;
         font-style: normal;
         font-weight: 600;
@@ -15,24 +21,54 @@
         margin-left: 4%;
     } 
     .row {
+        @media only screen and (max-device-width: 600px) {
+            padding-left: 4%;
+        }
         margin-top: 5%;
         width: 90%;
         padding-left: 23%;
         .col-md-4 {
+            @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                margin-left: -14%;
+            }
             img{
                 width: 67%;
+                @media only screen and (max-device-width: 600px) {
+                    width: 90%;
+                    margin-left: 9%;
+                    margin-top: 8%;
+                }
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    width: 114%;
+                }
+                @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+                    width: 114%;
+                }
             }
         }
         .col-md-8 {
+            @media only screen and (max-device-width: 600px) {
+                padding-left: 3%;
+            }
             padding-left: 15%;
             text-align: left;
             a{
+                @media only screen and (max-device-width: 600px) {
+                    width: 12%
+                }
                 text-decoration: none;
             }
             img {
                 width: 85%;
             }
             .name {
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    font-size: 32px;
+                    padding-bottom: 5%;
+                }
+                @media only screen and (max-device-width: 600px) {
+                    font-size: 18px;
+                }
                 font-family: IBM Plex Sans;
                 font-style: normal;
                 font-weight: bold;
@@ -42,6 +78,13 @@
                 padding: 2%;
             }
             .type {
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    font-size: 28px;
+                    padding-bottom: 5%;
+                }
+                @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+                    font-size: 20px;
+                }
                 font-family: IBM Plex Sans;
                 font-style: normal;
                 font-weight: 300;
@@ -52,6 +95,16 @@
                 padding-top: 0;
             }
             .rating {
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    width: 30%;
+                    margin-bottom: 3%;
+                }
+                @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) { 
+                    width: 28%;
+                }
+                @media only screen and (max-device-width: 600px) {
+                    width: 42%;
+                }
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
@@ -64,7 +117,27 @@
             }
             
             .promo {
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    font-size: 24px;
+                    padding-bottom: 3%;
+                }
+                @media only screen and (max-device-width: 600px) {
+                    font-size: 14px;
+                    padding-left: 3%;
+                }
                 img {
+                    @media only screen and (max-device-width: 600px) {
+                        width: 17%;
+                        padding-right: 2%;
+                        margin-left: -4%;
+                    }
+                    @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                        width: 14%;
+                        margin-right: 2%;
+                    }
+                    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+                        width: 11%;
+                    }
                     font-family: IBM Plex Sans;
                     font-style: normal;
                     font-weight: 300;
@@ -77,6 +150,12 @@
                 }
             }
             .rate {
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+                    font-size: 26px;
+                }
+                @media only screen and (max-device-width: 600px) {
+                    font-size: 14px;
+                }
                 font-family: IBM Plex Sans;
                 font-style: normal;
                 font-weight: 300;
@@ -88,6 +167,18 @@
         }
     }
     .ViewAll {
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px)  {
+            padding: 18px 32px;
+        }        
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            padding: 18px 32px;
+            position: relative;
+        }
+        @media only screen and (max-device-width: 600px) {
+            height: 4%;
+            left: 37%;
+            width: 24%;
+        }        
         position: absolute;
         width: 21%;
         left: 43%;

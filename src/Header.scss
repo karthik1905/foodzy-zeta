@@ -21,11 +21,31 @@ header {
         margin-bottom: 1px;
     }
     .Notification {
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            width: 5%;
+            margin-right: 3%;
+        }
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            width: 5%;
+        }
+        @media only screen and (max-device-width: 600px) {
+            width: 11%;
+        }
         position: absolute;
         width: 3.5%;
         right: 78px;
     }
     .Profile {
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            width: 5%;
+            margin-right: 1%;
+        }
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            width: 5%;
+        }
+        @media only screen and (max-device-width: 600px) {
+            width: 11%;
+        }
         position: absolute;
         width: 3.5%;
         right: 24px;
@@ -42,6 +62,9 @@ header {
         background: linear-gradient(to right, #FFFFFF, #D45858);
     }
     .Header-content {
+        @media only screen and (max-device-width: 600px) {
+            padding-bottom: 5%;
+        }
         margin-left: 10%;
         background-color: #D45858;
         .Logo {
@@ -51,7 +74,23 @@ header {
                 top: 26%;
                 right: 8%;
                 height: 86%;
-                width: 37%
+                width: 37%;
+                @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+                    width: 55%;
+                    top: 37%;
+                    height: 77%;
+                }
+                @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+                    width: 50%;
+                    height: 65%;
+                    top: 47%;
+                }
+                @media only screen and (max-device-width: 600px) {
+                    height: 64%;
+                    width: 88%;
+                    top: 44%;
+                    left: 3%
+                }
             }
         }
     }
@@ -66,9 +105,47 @@ header {
         font-weight: 600;
         font-size: 40px;
         line-height: 21px;
-        color:#FFFFFF;
+        color:#FFFFFF;        
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            padding-bottom: 11%;
+            margin-left: -6%;
+        }
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            margin-bottom: 5%;    
+            font-size: 29px;
+        }
+        @media only screen and (max-device-width: 600px) {
+            font-size: 21px;
+            margin-left: -9px;
+        }
     }
-    .Off {
+    .Off {        
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            width: 93%; 
+        }
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            width: 59%;
+        }
+        // @media only screen and (max-device-width: 600px) {
+        //     width: 105%;
+        //     font-size: 32px;
+        // }
+        // 6,7,8
+        @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 667px) 
+        and (-webkit-min-device-pixel-ratio: 2) { 
+            width: 105% !important;
+            font-size: 32px !important;
+            margin-top: 0 !important;
+        }
+        // 5/se
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+            width: 93%;
+            font-size: 23px;
+            margin-top: -5%;
+            margin-left: -12%;
+        }
         width: 59%;
         height: 12%;
         left: 20px;
@@ -82,6 +159,35 @@ header {
         color:#FFFFFF;
     }
     .First-order {
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            width: 65%;
+            margin-bottom: 7%;
+        }
+        // @media only screen and (max-device-width: 600px) {
+        //     font-size: 19px;
+        //     width: 115%;
+        //     padding-bottom: 25%;
+        //     margin-left: -9%;
+        // }
+        
+        // 6,7,8
+        @media only screen 
+        and (min-device-width: 375px) 
+        and (max-device-width: 667px) 
+        and (-webkit-min-device-pixel-ratio: 2) { 
+            font-size: 19px !important;
+            width: 115% !important;
+            padding-bottom: 25% !important;
+            margin-left: -9% !important;
+        }
+        // 5 / se
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+            width: 116%;
+            font-size: 16px;
+            margin-left: -12%;
+            padding-bottom: 25%;
+        }
+
         width: 34%;
         height: 7%;
         left: 23px;
@@ -91,7 +197,11 @@ header {
         font-weight: 300;
         font-size: 26px;
         line-height: 16px;
-        color:#FFFFFF;
+        color:#FFFFFF;        
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            width: 52%;
+            margin-left: -9%;
+        }
     }
     .Order-btn {
         display: flex;
@@ -104,8 +214,24 @@ header {
         border-radius: 8px;
         color:#FFFFFF;
         border: #FFFFFF 1px solid;
+        
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1200px) and (max-device-height: 1366px) {
+            width: 51%;
+            margin-left: -7%;
+        }
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+            width: 63%;
+            margin-bottom: 5%;
+        }
+        @media only screen and (max-device-width: 600px) {
+            width: 95%;
+            margin-left: -6%;
+        }
     } 
     .Order {
+        @media only screen and (max-device-width: 600px) {
+            font-size: 16px;
+        }
         left: 12px;
         top: 6px;
         padding: 6%;

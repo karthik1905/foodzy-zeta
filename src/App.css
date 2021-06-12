@@ -27,6 +27,9 @@
 .bg{
   background-color: brown;
 }
+*{
+  font-family: "IBM Plex Sans";
+}
 
 .App-link {
   color: #61dafb;

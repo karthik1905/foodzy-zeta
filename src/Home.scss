@@ -1,6 +1,9 @@
 .content {
     padding: 0;
     margin-top: -2%;
+    @media only screen and (max-device-width: 600px) {
+        margin-top: -6%;
+    }
 }
 html {
     scroll-behavior: smooth;

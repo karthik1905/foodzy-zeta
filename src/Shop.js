@@ -31,7 +31,6 @@ function Shop() {
                 ans = number.flag;
             }
         })
-        console.log("flagchecking " + ans);
         return ans;
     }
 
@@ -56,8 +55,6 @@ function Shop() {
         });
         setAmount(sum);
         setTotalItem(itemLength);
-        console.log("kar totelitem: "+TotalItem);
-        console.log("kar amount:"+amount);
     }
 
     let addCart = (index, parentindex, price, item, e) => {
@@ -76,7 +73,7 @@ function Shop() {
                 child: index,
                 price: price,
                 item: item
-            }], () => {console.log();});
+            }]);
         getOrder();
     }
     let subCart = (index, parentindex, price, item, e) => {
@@ -95,23 +92,19 @@ function Shop() {
                 child: index,
                 price: price,
                 item: item
-            }], () => {console.log();});
+            }]);
         getOrder();
     }
     
 
     useEffect(() => {
-        console.log('hi');
         getOrder();
         window.addEventListener("scroll", event => {
             let fromTop = window.scrollY;
             let mainNavLinks = document.querySelectorAll(".types .col-md-3 a");
             let mainSections = document.querySelectorAll(".CategoryMainSection section");
-            console.log("mainnavlinks"+ mainNavLinks);
-            console.log("mainSections"+mainSections);
             mainNavLinks.forEach(link => {
               let section = document.querySelector(link.hash);
-                console.log();
               if (section!=null &&section.offsetTop!==null && section.offsetTop <= fromTop+60 && section.offsetTop + section.offsetHeight > fromTop+60) {
                 link.classList.add("current");
                 setnavHighlight(link.id);
@@ -151,7 +144,6 @@ function Shop() {
                 child: index,
                 flag: true
             }]);
-        console.log(readmore);
 
     }
 
@@ -185,7 +177,6 @@ function Shop() {
                     <div class="add">
                         <button >
                             {cartChecking(index, parentindex) === 0 ? <a onClick={() => {
-                                console.log("addcart()",index, parentindex, value.price);
                             addCart(index, parentindex, value.price, 1); 
                             }}> + ADD </a> :
                                 <span>
@@ -218,7 +209,6 @@ function Shop() {
         setPay(true);
     }
     const fixHeader = () => {
-        console.log(window.scrollY);
         if(window.scrollY >= 80)
             setheadingScroll(true);
         else 
